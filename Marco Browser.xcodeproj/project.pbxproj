@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D81B8482722AD1F0040C7D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81B8472722AD1F0040C7D4 /* AppDelegate.swift */; };
+		2D81B84A2722AD1F0040C7D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81B8492722AD1F0040C7D4 /* ViewController.swift */; };
+		2D81B84C2722AD1F0040C7D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D81B84B2722AD1F0040C7D4 /* Assets.xcassets */; };
+		2D81B84F2722AD1F0040C7D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D81B84D2722AD1F0040C7D4 /* Main.storyboard */; };
+		2D81B85B2722AD1F0040C7D4 /* Marco_BrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81B85A2722AD1F0040C7D4 /* Marco_BrowserTests.swift */; };
+		2D81B8662722AD1F0040C7D4 /* Marco_BrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81B8652722AD1F0040C7D4 /* Marco_BrowserUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D81B8572722AD1F0040C7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D81B83C2722AD1F0040C7D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D81B8432722AD1F0040C7D4;
+			remoteInfo = "Marco Browser";
+		};
+		2D81B8622722AD1F0040C7D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D81B83C2722AD1F0040C7D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D81B8432722AD1F0040C7D4;
+			remoteInfo = "Marco Browser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D6661782727A05900982825 /* Marco Browser-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Marco Browser-Bridging-Header.h"; sourceTree = "<group>"; };
+		2D81B8442722AD1F0040C7D4 /* Marco Browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marco Browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D81B8472722AD1F0040C7D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D81B8492722AD1F0040C7D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D81B84B2722AD1F0040C7D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../../../Desktop/Macintosh/Xcode/Marco Browser/Marco Browser/Assets.xcassets"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D81B84E2722AD1F0040C7D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D81B8502722AD1F0040C7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D81B8512722AD1F0040C7D4 /* Marco_Browser.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marco_Browser.entitlements; sourceTree = "<group>"; };
+		2D81B8562722AD1F0040C7D4 /* Marco BrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marco BrowserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D81B85A2722AD1F0040C7D4 /* Marco_BrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marco_BrowserTests.swift; sourceTree = "<group>"; };
+		2D81B85C2722AD1F0040C7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D81B8612722AD1F0040C7D4 /* Marco BrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marco BrowserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D81B8652722AD1F0040C7D4 /* Marco_BrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marco_BrowserUITests.swift; sourceTree = "<group>"; };
+		2D81B8672722AD1F0040C7D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D81B8412722AD1F0040C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D81B8532722AD1F0040C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D81B85E2722AD1F0040C7D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D81B83B2722AD1F0040C7D4 = {
+			isa = PBXGroup;
+			children = (
+				2D81B8462722AD1F0040C7D4 /* Marco Browser */,
+				2D81B8592722AD1F0040C7D4 /* Marco BrowserTests */,
+				2D81B8642722AD1F0040C7D4 /* Marco BrowserUITests */,
+				2D81B8452722AD1F0040C7D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D81B8452722AD1F0040C7D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D81B8442722AD1F0040C7D4 /* Marco Browser.app */,
+				2D81B8562722AD1F0040C7D4 /* Marco BrowserTests.xctest */,
+				2D81B8612722AD1F0040C7D4 /* Marco BrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D81B8462722AD1F0040C7D4 /* Marco Browser */ = {
+			isa = PBXGroup;
+			children = (
+				2D81B8472722AD1F0040C7D4 /* AppDelegate.swift */,
+				2D81B8492722AD1F0040C7D4 /* ViewController.swift */,
+				2D81B84B2722AD1F0040C7D4 /* Assets.xcassets */,
+				2D81B84D2722AD1F0040C7D4 /* Main.storyboard */,
+				2D81B8502722AD1F0040C7D4 /* Info.plist */,
+				2D81B8512722AD1F0040C7D4 /* Marco_Browser.entitlements */,
+				2D6661782727A05900982825 /* Marco Browser-Bridging-Header.h */,
+			);
+			path = "Marco Browser";
+			sourceTree = "<group>";
+		};
+		2D81B8592722AD1F0040C7D4 /* Marco BrowserTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D81B85A2722AD1F0040C7D4 /* Marco_BrowserTests.swift */,
+				2D81B85C2722AD1F0040C7D4 /* Info.plist */,
+			);
+			path = "Marco BrowserTests";
+			sourceTree = "<group>";
+		};
+		2D81B8642722AD1F0040C7D4 /* Marco BrowserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D81B8652722AD1F0040C7D4 /* Marco_BrowserUITests.swift */,
+				2D81B8672722AD1F0040C7D4 /* Info.plist */,
+			);
+			path = "Marco BrowserUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D81B8432722AD1F0040C7D4 /* Marco Browser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D81B86A2722AD1F0040C7D4 /* Build configuration list for PBXNativeTarget "Marco Browser" */;
+			buildPhases = (
+				2D81B8402722AD1F0040C7D4 /* Sources */,
+				2D81B8412722AD1F0040C7D4 /* Frameworks */,
+				2D81B8422722AD1F0040C7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marco Browser";
+			productName = "Marco Browser";
+			productReference = 2D81B8442722AD1F0040C7D4 /* Marco Browser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D81B8552722AD1F0040C7D4 /* Marco BrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D81B86D2722AD1F0040C7D4 /* Build configuration list for PBXNativeTarget "Marco BrowserTests" */;
+			buildPhases = (
+				2D81B8522722AD1F0040C7D4 /* Sources */,
+				2D81B8532722AD1F0040C7D4 /* Frameworks */,
+				2D81B8542722AD1F0040C7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D81B8582722AD1F0040C7D4 /* PBXTargetDependency */,
+			);
+			name = "Marco BrowserTests";
+			productName = "Marco BrowserTests";
+			productReference = 2D81B8562722AD1F0040C7D4 /* Marco BrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D81B8602722AD1F0040C7D4 /* Marco BrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D81B8702722AD1F0040C7D4 /* Build configuration list for PBXNativeTarget "Marco BrowserUITests" */;
+			buildPhases = (
+				2D81B85D2722AD1F0040C7D4 /* Sources */,
+				2D81B85E2722AD1F0040C7D4 /* Frameworks */,
+				2D81B85F2722AD1F0040C7D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D81B8632722AD1F0040C7D4 /* PBXTargetDependency */,
+			);
+			name = "Marco BrowserUITests";
+			productName = "Marco BrowserUITests";
+			productReference = 2D81B8612722AD1F0040C7D4 /* Marco BrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D81B83C2722AD1F0040C7D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2D81B8432722AD1F0040C7D4 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					2D81B8552722AD1F0040C7D4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2D81B8432722AD1F0040C7D4;
+					};
+					2D81B8602722AD1F0040C7D4 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2D81B8432722AD1F0040C7D4;
+					};
+				};
+			};
+			buildConfigurationList = 2D81B83F2722AD1F0040C7D4 /* Build configuration list for PBXProject "Marco Browser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D81B83B2722AD1F0040C7D4;
+			productRefGroup = 2D81B8452722AD1F0040C7D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D81B8432722AD1F0040C7D4 /* Marco Browser */,
+				2D81B8552722AD1F0040C7D4 /* Marco BrowserTests */,
+				2D81B8602722AD1F0040C7D4 /* Marco BrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D81B8422722AD1F0040C7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D81B84C2722AD1F0040C7D4 /* Assets.xcassets in Resources */,
+				2D81B84F2722AD1F0040C7D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D81B8542722AD1F0040C7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D81B85F2722AD1F0040C7D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D81B8402722AD1F0040C7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D81B84A2722AD1F0040C7D4 /* ViewController.swift in Sources */,
+				2D81B8482722AD1F0040C7D4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D81B8522722AD1F0040C7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D81B85B2722AD1F0040C7D4 /* Marco_BrowserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D81B85D2722AD1F0040C7D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D81B8662722AD1F0040C7D4 /* Marco_BrowserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D81B8582722AD1F0040C7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D81B8432722AD1F0040C7D4 /* Marco Browser */;
+			targetProxy = 2D81B8572722AD1F0040C7D4 /* PBXContainerItemProxy */;
+		};
+		2D81B8632722AD1F0040C7D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D81B8432722AD1F0040C7D4 /* Marco Browser */;
+			targetProxy = 2D81B8622722AD1F0040C7D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D81B84D2722AD1F0040C7D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D81B84E2722AD1F0040C7D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D81B8682722AD1F0040C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D81B8692722AD1F0040C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2D81B86B2722AD1F0040C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Marco Browser/Marco_Browser.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHTKC9NKU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Marco Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken-tseng.com.Marco-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marco Browser/Marco Browser-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D81B86C2722AD1F0040C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Marco Browser/Marco_Browser.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHTKC9NKU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Marco Browser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken-tseng.com.Marco-Browser";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Marco Browser/Marco Browser-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D81B86E2722AD1F0040C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHTKC9NKU;
+				INFOPLIST_FILE = "Marco BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ken-tseng.com.Marco-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marco Browser.app/Contents/MacOS/Marco Browser";
+			};
+			name = Debug;
+		};
+		2D81B86F2722AD1F0040C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHTKC9NKU;
+				INFOPLIST_FILE = "Marco BrowserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ken-tseng.com.Marco-BrowserTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marco Browser.app/Contents/MacOS/Marco Browser";
+			};
+			name = Release;
+		};
+		2D81B8712722AD1F0040C7D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHTKC9NKU;
+				INFOPLIST_FILE = "Marco BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken-tseng.com.Marco-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Marco Browser";
+			};
+			name = Debug;
+		};
+		2D81B8722722AD1F0040C7D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7SHTKC9NKU;
+				INFOPLIST_FILE = "Marco BrowserUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ken-tseng.com.Marco-BrowserUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Marco Browser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D81B83F2722AD1F0040C7D4 /* Build configuration list for PBXProject "Marco Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D81B8682722AD1F0040C7D4 /* Debug */,
+				2D81B8692722AD1F0040C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D81B86A2722AD1F0040C7D4 /* Build configuration list for PBXNativeTarget "Marco Browser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D81B86B2722AD1F0040C7D4 /* Debug */,
+				2D81B86C2722AD1F0040C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D81B86D2722AD1F0040C7D4 /* Build configuration list for PBXNativeTarget "Marco BrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D81B86E2722AD1F0040C7D4 /* Debug */,
+				2D81B86F2722AD1F0040C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D81B8702722AD1F0040C7D4 /* Build configuration list for PBXNativeTarget "Marco BrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D81B8712722AD1F0040C7D4 /* Debug */,
+				2D81B8722722AD1F0040C7D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D81B83C2722AD1F0040C7D4 /* Project object */;
+}
